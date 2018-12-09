@@ -15,6 +15,7 @@
 		AC12A55821BC795800FEB445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC12A55621BC795800FEB445 /* LaunchScreen.storyboard */; };
 		AC12A56321BC795800FEB445 /* PureML2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A56221BC795800FEB445 /* PureML2Tests.swift */; };
 		AC12A56E21BC795800FEB445 /* PureML2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A56D21BC795800FEB445 /* PureML2UITests.swift */; };
+		AC12A57C21BC9AC800FEB445 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC12A57B21BC9AC800FEB445 /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC12A56921BC795800FEB445 /* PureML2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureML2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC12A56D21BC795800FEB445 /* PureML2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureML2UITests.swift; sourceTree = "<group>"; };
 		AC12A56F21BC795800FEB445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC12A57B21BC9AC800FEB445 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		AC12A54921BC795700FEB445 /* PureML2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC12A57B21BC9AC800FEB445 /* ImageClassifier.mlmodel */,
 				AC12A54A21BC795700FEB445 /* AppDelegate.swift */,
 				AC12A54C21BC795700FEB445 /* ViewController.swift */,
 				AC12A54E21BC795700FEB445 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				AC12A54D21BC795700FEB445 /* ViewController.swift in Sources */,
 				AC12A55321BC795700FEB445 /* PureML2.xcdatamodeld in Sources */,
 				AC12A54B21BC795700FEB445 /* AppDelegate.swift in Sources */,
+				AC12A57C21BC9AC800FEB445 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 779KKSH4SQ;
 				INFOPLIST_FILE = PureML2/Info.plist;
@@ -454,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 779KKSH4SQ;
 				INFOPLIST_FILE = PureML2/Info.plist;
